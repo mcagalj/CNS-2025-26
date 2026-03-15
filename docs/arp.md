@@ -16,17 +16,16 @@ For this lab, you will work with the following network setup:
 
 ## Challenge Description
 
-The server implements an authenticated REST API service (source code available in [`code/arp/`](../code/arp/)). The client application regularly communicates with this service. Your goal is to capture a flag in the format `crypto{th1s_is_y0ur_f1ag}`.
+The server implements an authenticated REST API service. The client application regularly communicates with this service. Your goal is to capture a flag in the format `crypto{th1s_is_y0ur_f1ag}`.
 
 ### Hints
 
-1. The source code in the [`code/arp/`](../code/arp/) directory help understanding how the `client` and `server` communicate.
-2. Look carefully at the bearer token in the HTTP Authorization header - it contains more than just access rights.
-3. Lecture slides on ARP poisoning provide theoretical foundation.
-4. Your attacking machine comes with pre-installed tools that will help you:
+1. The pseudocode in [`code/arp/`](../code/arp/) outlines how the `client` and `server` communicate. Use it to understand what traffic to expect on the network.
+2. Lecture slides on ARP poisoning provide theoretical foundation.
+3. Your attacking machine comes with pre-installed tools that will help you:
    - `ifconfig` - tool for network interface configuration and inspection
    - `dsniff` - suite of tools for network auditing and penetration testing
    - `tcpdump` - command-line packet analyzer (use `-vvAls0` flags for detailed payload decoding)
        > Using Linux pipes (`|`) with `grep` tool can be particularly useful for filtering decoded `tcpdump` output.
-5. Being multi-homed means your attacking machine has multiple network interfaces. Use `ifconfig` to identify the correct one for capturing/spoofing.
-6. You might find [CyberChef](https://gchq.github.io/CyberChef/) quite useful.
+4. Being multi-homed means your attacking machine has multiple network interfaces. Use `ifconfig` to identify the correct one for capturing/spoofing.
+5. You might find [CyberChef](https://gchq.github.io/CyberChef/) quite useful.
