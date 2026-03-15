@@ -9,7 +9,7 @@ Ultimately, you will demonstrate possession of a single **final** flag to earn f
 ## List of planned exercises
 
 - [**Lab 1:** Setting Up the Stage](docs/intro.md)
-- **Lab 2:** Man-in-the-Middle Attack
+- [**Lab 2:** Confidentiality, Integrity, and Network Threats](docs/arp.md)
 - **Lab 3:** A Thin Line Between a Perfect Cipher and an Insecure One
 - **Lab 4:** The Fallacy of Deterministic Encryption
 - **Lab 5:** How Weak Secrets Defeat Strong Encryption
