@@ -12,7 +12,7 @@ Ultimately, you will demonstrate possession of a single **final** flag to earn f
 - [**Lab 2:** Confidentiality, Integrity, and Network Threats](docs/arp.md)
 - [**Lab 3:** A Thin Line Between a Perfect Cipher and an Insecure One](docs/vernam.md)
 - [**Lab 4:** The Fallacy of Deterministic Encryption](docs/deterministic.md)
-- **Lab 5:** How Weak Secrets Defeat Strong Encryption
+- [**Lab 5:** How Weak Secrets Defeat Strong Encryption](docs/low_entropy.md)
 - **Lab 6:** Hybrid/Envelope Encryption
 - **Lab 7:** Establishing a Secure Channel Using Asymmetric Cryptography
 - **Lab 8:** Practical Uses of Cryptographic Hash Functions
